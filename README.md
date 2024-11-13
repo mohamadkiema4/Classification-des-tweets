@@ -11,9 +11,11 @@ Cette section charge le fichier des tweets suspects(voir dossier dataset), véri
 ##### Equilibrage des données
 Le sous echantillonnage est utilisé qpour ré-equilibré des données
 #### 1.3. Prétraitement des Données
-        -La suppression des caractères spéciaux avec spaCy
-        - La tokenisation avec spaCy
-        -La vectorisation des données textuelles avec TF-IDF
+
+- La suppression des caractères spéciaux avec spaCy
+- La tokenisation avec spaCy
+- La vectorisation des données textuelles avec TF-IDF
+
 #### 1.4. Division des Données
 Utilisation de train_test_split pour séparer les données en ensembles d'entraînement et de test.
 #### 1.5. Entraînement du Modèle
