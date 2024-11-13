@@ -37,3 +37,12 @@ Présentation des métriques de performance, telles que l'accuracy, la précisio
 - **svm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné dans notre fichier ** run_detection_tweet.ipynb** , enregistré dans un fichier `.pkl`.
 
 ### 3. Figures
+#### 3.1 Analyse univariée
+-**hist.png** représente l'histogramme de notre dataset
+-**circ.png** est le diagramme circulaire de notre dataset
+#### 3.2 Résultats des métriques des trois modèles
+##### 3.2.1 Sans inclusion des hyperparamètres
+##### 3.2.2 Avec inclusion des hyperparamètres
+#### 3.3 Matrix de confusion des trois modèles
+##### 3.3.1 Sans inclusion des hyperparamètres
+##### 3.3.2 Avec inclusion des hyperparamètres
