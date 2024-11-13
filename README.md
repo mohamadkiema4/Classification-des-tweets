@@ -29,4 +29,12 @@ Application de ces algorithmes de classification avec les hyperparamètres et co
 #### 1.7. Évaluation du Modèle
 Présentation des métriques de performance, telles que l'accuracy, la précision, les matrices de confusion et le rappel, pour évaluer la qualité des modèles.
 ### 2. Streamlit
+- **run_streamlit.py** : Script principal pour exécuter l'application Streamlit. Ce fichier lance l'interface utilisateur, permettant de charger et tester les modèles de classification (régression logistique, forêt aléatoire, SVM) sur des tweets pour déterminer s'ils sont suspects ou non.
+
+- **logistic_regression_model.pkl** : Modèle de régression logistique pré-entraîné, enregistré au format `.pkl`. Ce modèle est utilisé pour la classification des tweets en "suspects" ou "non suspects" sur la base des caractéristiques textuelles extraites.
+
+- **random_forest_model.pkl** : Modèle de forêt aléatoire pré-entraîné, également enregistré au format `.pkl`. Ce modèle applique une approche d'ensemble d'arbres de décision pour améliorer la précision de la classification des tweets.
+
+- **vm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné, enregistré dans un fichier `.pkl`. Ce modèle est utilisé pour classifier les tweets en maximisant la séparation entre les classes à l'aide de vecteurs de support.
+
 ### 3. Figures
