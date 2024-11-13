@@ -61,3 +61,5 @@ Présentation des métriques de performance, telles que l'accuracy, la précisio
 - **matlog_Dataequilibre.png** représente la matrice de confusion de la logistic regression avec les hyperparamètres
 - **matrf_Dataequilibre.png** est  la matrice de confusion de random forest avec les hyperparamètres
 - **matsvm_Dataequilibre.png** est  la matrice de confusion de svm avec les hyperparamètres
+  ### Dataset
+  - **tweet_suspects.csv** est le dataset utilisé pour la classification
