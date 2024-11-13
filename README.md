@@ -42,7 +42,21 @@ Présentation des métriques de performance, telles que l'accuracy, la précisio
 - **circ.png** est le diagramme circulaire de notre dataset
 #### 3.2 Résultats des métriques des trois modèles
 ##### 3.2.1 Sans inclusion des hyperparamètres
+- **logistic.png** représente le résulat des différentes métriques de la logistic regression
+- **random.png** est le résulat des différentes métriques de random forest
+- **svm.png** est le résulat des différentes métriques de svm
+
 ##### 3.2.2 Avec inclusion des hyperparamètres
+- **logistic_Dataequilibre.png** représente le résulat des différentes métriques avec les hyperparamètres de la logistic regression
+- **rf_Dataequilibre.png** est le résulat des différentes métriques avec les hyperparamètres de random forest
+- **svm_Dataequilibre.png** est le résulat des différentes métriques avec les hyperparamètres de svm
+
 #### 3.3 Matrix de confusion des trois modèles
 ##### 3.3.1 Sans inclusion des hyperparamètres
+- **matlo.png** représente la matrice de confusion de la logistic regression
+- **matrf.png** est  la matrice de confusion de random forest
+- **matsv.png** est  la matrice de confusion de svm
 ##### 3.3.2 Avec inclusion des hyperparamètres
+- **matlog_Dataequilibre.png** représente la matrice de confusion de la logistic regression avec les hyperparamètres
+- **matrf_Dataequilibre.png** est  la matrice de confusion de random forest avec les hyperparamètres
+- **matsvm_Dataequilibre.png** est  la matrice de confusion de svm avec les hyperparamètres
