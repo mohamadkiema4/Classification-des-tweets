@@ -31,10 +31,9 @@ Présentation des métriques de performance, telles que l'accuracy, la précisio
 ### 2. Streamlit
 - **run_streamlit.py** : Script principal pour exécuter l'application Streamlit. Ce fichier lance l'interface utilisateur, permettant de charger et tester les modèles de classification (régression logistique, forêt aléatoire, SVM) sur des tweets pour déterminer s'ils sont suspects ou non.
 
-- **logistic_regression_model.pkl** : Modèle de régression logistique pré-entraîné, enregistré au format `.pkl`. Ce modèle est utilisé pour la classification des tweets en "suspects" ou "non suspects" sur la base des caractéristiques textuelles extraites.
+- **logistic_regression_model.pkl** : Modèle de régression logistique pré-entraîné notre fichier ** run_detection_tweet.ipynb**, enregistré au format `.pkl`. 
+- **random_forest_model.pkl** : Modèle de forêt aléatoire pré-entraîné notre fichier ** run_detection_tweet.ipynb**, également enregistré au format `.pkl`. 
 
-- **random_forest_model.pkl** : Modèle de forêt aléatoire pré-entraîné, également enregistré au format `.pkl`. Ce modèle applique une approche d'ensemble d'arbres de décision pour améliorer la précision de la classification des tweets.
-
-- **vm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné, enregistré dans un fichier `.pkl`. Ce modèle est utilisé pour classifier les tweets en maximisant la séparation entre les classes à l'aide de vecteurs de support.
+- **svm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné dans notre fichier ** run_detection_tweet.ipynb** , enregistré dans un fichier `.pkl`.
 
 ### 3. Figures
