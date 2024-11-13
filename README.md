@@ -38,8 +38,8 @@ Présentation des métriques de performance, telles que l'accuracy, la précisio
 
 ### 3. Figures
 #### 3.1 Analyse univariée
--**hist.png** représente l'histogramme de notre dataset
--**circ.png** est le diagramme circulaire de notre dataset
+- **hist.png** représente l'histogramme de notre dataset
+- **circ.png** est le diagramme circulaire de notre dataset
 #### 3.2 Résultats des métriques des trois modèles
 ##### 3.2.1 Sans inclusion des hyperparamètres
 ##### 3.2.2 Avec inclusion des hyperparamètres
