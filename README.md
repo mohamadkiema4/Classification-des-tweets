@@ -29,13 +29,14 @@ Application de ces algorithmes de classification avec les hyperparamètres et co
 #### 1.7. Évaluation du Modèle
 Présentation des métriques de performance, telles que l'accuracy, la précision, les matrices de confusion et le rappel, pour évaluer la qualité des modèles.
 ### 2. Streamlit
+- **programme.py** : permet d"enregistrer et sauvegarder nos trois modèles(Logistic regression, random forest et SVM) afin de les chargés dans run_streamlit.py
 - **run_streamlit.py** : Script principal pour exécuter l'application Streamlit. Ce fichier lance l'interface utilisateur, permettant de charger et tester les modèles de classification (régression logistique, forêt aléatoire, SVM) sur des tweets pour déterminer s'ils sont suspects ou non.
 
-- **logistic_regression_model.pkl** : Modèle de régression logistique pré-entraîné notre fichier ** run_detection_tweet.ipynb**, enregistré au format `.pkl`. 
-- **random_forest_model.pkl** : Modèle de forêt aléatoire pré-entraîné notre fichier ** run_detection_tweet.ipynb**, également enregistré au format `.pkl`. 
+- **logistic_regression_model.pkl** : Modèle de régression logistique pré-entraîné notre fichier ** programme.py**, enregistré au format `.pkl`. 
+- **random_forest_model.pkl** : Modèle de forêt aléatoire pré-entraîné notre fichier ** programme.py**, également enregistré au format `.pkl`. 
 
-- **svm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné dans notre fichier ** run_detection_tweet.ipynb** , enregistré dans un fichier `.pkl`.
-
+- **svm_model.pkl** : Modèle de Support Vector Machine (SVM) pré-entraîné dans notre fichier ** programme.py** , enregistré dans un fichier `.pkl`.
+- **tfidf_vectorizer.pkl**: TF-IDF pré-entraîné dans notre fichier ** programme.py**, enregistré dans un fichier `.pkl`.
 ### 3. Figures
 #### 3.1 Analyse univariée
 - **hist.png** représente l'histogramme de notre dataset
