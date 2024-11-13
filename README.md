@@ -18,12 +18,12 @@ Le sous echantillonnage est utilisé qpour ré-equilibré des données
 Utilisation de train_test_split pour séparer les données en ensembles d'entraînement et de test.
 #### 1.5. Entraînement du Modèle
 Application des algorithmes de classification et comparaison de leurs performances :
-        +SVM
-        +Random Forest
-        + K-Nearest Neighbors, etc.
+           - SVM
+           - Random Forest
+           - K-Nearest Neighbors, etc.
 #### 1.6. Ajustement des hyperparamètres 
 Application de ces algorithmes de classification avec les hyperparamètres et comparaison de leurs performances
 #### 1.7. Évaluation du Modèle
 Présentation des métriques de performance, telles que l'accuracy, la précision, les matrices de confusion et le rappel, pour évaluer la qualité des modèles.
-### 2 Streamlit
-### 3 Figures
+### 2. Streamlit
+### 3. Figures
